@@ -1,7 +1,6 @@
 "use client";
 
 import { FaEnvelope, FaXTwitter, FaYoutube } from "react-icons/fa6";
-import { useRouter } from "next/navigation";
 import { FaFileAlt, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const SocialIcons = () => {
