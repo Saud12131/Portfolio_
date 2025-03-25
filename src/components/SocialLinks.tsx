@@ -39,7 +39,7 @@ const SocialIcons = () => {
     {
       name: "Resume",
       icon: <FaFileAlt size={28} />,
-      url: "https://github.com/YOUR_GITHUB_USERNAME",
+      url: "https://drive.google.com/file/d/1wegWprbl8k4lkeXbJopsRONUNWJ1a027/view",
       external: true,
     },
   ];

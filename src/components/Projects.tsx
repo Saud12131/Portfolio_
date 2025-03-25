@@ -24,7 +24,7 @@ const projectInfo: Project[] = [
     demoLink: "https://www.youtube.com/watch?v=obNvPCyJA7U",
     imageUrl: boltImg,
     techStack: [
-      "Sanpack",
+      "Sandpack",
       "Next.js",
       "Tailwind CSS",
       "ShadCN",
@@ -44,9 +44,9 @@ const projectInfo: Project[] = [
     techStack: ["Turborepo", "Next.js", "Node.js", "WebSockets", "HTML Canvas"],
   },
   {
-    projectName: "Video Script Generator",
+    projectName: "AI Shorts Generator",
     projectDescription:
-      "Users provide a topic, and the app generates a script. They can then select a voice, topic, and style to generate a video, which can be played. The system uses Google authentication and a credit-based system.",
+      "Users provide a topic, and the app generates a script. They can  select a generated script, voice, topic, and style to generate a video, which can be played. The system uses Google authentication and a credit-based system.",
     projectLink: "https://github.com/mdalkama689/ai-shorts-generator",
     demoLink: "https://www.youtube.com/watch?v=wg_j-BlLdGI",
     imageUrl: aiShortImg,
@@ -59,7 +59,7 @@ const projectInfo: Project[] = [
     projectLink: "https://github.com/mdalkama689/wire2code",
     demoLink: "https://www.youtube.com/watch?v=jZZewOHbzXI",
     imageUrl: wier2codeImg,
-    techStack: ["OpenRouter", "NextAuth", "ShadCN", "Sanpack"],
+    techStack: ["OpenRouter", "NextAuth", "ShadCN", "Sandpack"],
   },
 ];
 
