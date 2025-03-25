@@ -7,11 +7,11 @@ const Notification = () => {
 
   return (
     <div
-      className={`fixed top-3 left-1/2 -translate-x-1/2 bg-blue-700 text-white px-6 py-3 rounded-lg flex justify-center items-center gap-4 w-auto max-w-[90%] border border-blue-500 transition-all duration-500 ease-in-out ${
+      className={`fixed top-3 left-1/2 -translate-x-1/2 bg-blue-700 text-white px-6 py-3 rounded-lg flex justify-center items-center gap-4 w-full max-w-[90%] md:w-auto border border-blue-500 transition-all duration-500 ease-in-out ${
         visible ? "translate-y-0 opacity-100 scale-100" : "-translate-y-full opacity-0 scale-95"
       }`}
     >
-      <span className="text-sm md:text-base font-semibold">
+      <span className="text-sm md:text-base font-semibold text-center">
         🚀 Would you like to collab with me or hire me?
       </span>
       <button
