@@ -133,7 +133,7 @@ const Contact = () => {
 
           <Button
             variant="outline"
-            className="text-black w-full bg-gray-300"
+            className="text-black w-full bg-gray-300 cursor-pointer"
             disabled={isSubmitting}
           >
             {isSubmitting ? "Sending..." : "Send Message"}
