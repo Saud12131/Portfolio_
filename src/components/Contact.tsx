@@ -65,7 +65,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="text-white py-6 px-4 sm:px-6 lg:px-8 mt-10 ">
+    <div id="contact" className="text-white py-6 px-4 sm:px-6 lg:px-8 mt-10 ">
       <div className="max-w-3xl mx-auto text-center">
         <h1 className="text-3xl font-bold text-gray-200 mb-8 relative before:absolute before:w-16 before:h-[2px] before:bg-gray-500 before:left-1/2 before:-translate-x-1/2 before:-bottom-2">
           Get in Touch
