@@ -74,7 +74,10 @@ const Apply = () => {
 
   return (
     <div className="bg-black flex items-center justify-center">
-      <Link href={"/hiring"} className=" absolute top-3 left-4 text-white text-3xl">
+      <Link
+        href={"/hiring"}
+        className=" absolute top-3 left-4 text-white text-3xl"
+      >
         <IoIosArrowBack />
       </Link>
       <div className="text-white py-6 px-4 sm:px-6 lg:px-8 pt-10 ">
@@ -85,7 +88,8 @@ const Apply = () => {
 
           <div className="bg-black text-white text-xl font-sans text-center">
             <p>
-              Showcase your skills and let us know why you&apos;re the right fit.
+              Showcase your skills and let us know why you&apos;re the right
+              fit.
             </p>
           </div>
 
