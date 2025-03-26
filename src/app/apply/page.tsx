@@ -85,7 +85,7 @@ const Apply = () => {
 
           <div className="bg-black text-white text-xl font-sans text-center">
             <p>
-              Showcase your skills and let us know why you're the right fit.
+              Showcase your skills and let us know why you&apos;re the right fit.
             </p>
           </div>
 

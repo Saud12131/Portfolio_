@@ -12,7 +12,7 @@ type ApplyData = {
 
 export async function POST(req: NextRequest) {
   try {
-    const { name, email, mobile, portfolio, resume, reason } = await req.json();
+    const { name, email, mobile, portfolio, resume, reason }: ApplyData = await req.json();
 
     if (!name || !email || !mobile || !resume || !reason) {
       return NextResponse.json(

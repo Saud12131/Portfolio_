@@ -58,7 +58,7 @@ function Hiring() {
         <h3 className="text-xl font-semibold mt-6">Payment Model:</h3>
         <p className="mb-4 leading-relaxed text-center">
           We operate on a commission-based model. After we receive full payment
-          from the client, you will receive 20% of the project's total revenue.
+          from the client, you will receive 20% of the project&apos;s total revenue.
           This ensures transparency and fairness. No financial investment is
           required from your side — your role is to bring in leads through your
           own resources or network.
