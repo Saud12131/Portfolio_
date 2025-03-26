@@ -14,7 +14,7 @@ type ContactFormData = {
   email: string;
   mobile: string;
   portfolio?: string;
-  resume: any;
+  resume: string;
   reason: string;
 };
 
