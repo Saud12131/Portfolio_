@@ -5,6 +5,9 @@ import {
   FaReact,
   FaNodeJs,
   FaGitAlt,
+  FaDocker,
+  FaPython,
+  FaParagraph
 } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import {
@@ -24,6 +27,7 @@ const techStack = [
   { name: "CSS", icon: <FaCss3Alt size={28} color="#1572B6" /> },
   { name: "JavaScript", icon: <FaJs size={28} color="#F7DF1E" /> },
   { name: "TypeScript", icon: <SiTypescript size={28} color="#3178C6" /> },
+  { name: "Python", icon: <FaPython size={28} color="#F7DF1E" /> },
   { name: "MongoDB", icon: <SiMongodb size={28} color="#47A248" /> },
   { name: "Mongoose", icon: <SiMongodb size={28} color="#880000" /> },
   { name: "Next.js", icon: <SiNextdotjs size={28} color="#FFFFFF" /> },
@@ -37,6 +41,7 @@ const techStack = [
   { name: "Git", icon: <FaGitAlt size={28} color="#F05032" /> },
   { name: "GitHub", icon: <FaGithub size={28} color="#FFFFFF" /> },
   { name: "Prisma", icon: <SiPrisma size={28} color="#FFFFFF" /> },
+  { name: "Docker", icon: <FaDocker size={28} color="#FFFFFF" /> },
 ];
 
 function Skill() {

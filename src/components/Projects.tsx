@@ -1,10 +1,9 @@
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
-import boltImg from "../../public/bolt.jpg";
-import excalidrwaImg from "../../public/excalidraw.jpg";
-import aiShortImg from "../../public/ai-shorts-gen.jpg";
-import wier2codeImg from "../../public/wire2code.jpg";
-import { FaGithub, FaYoutube } from "react-icons/fa6";
+import Wanderlust from "../../public/wanderlust.png";
+import Medium from "../../public/medium.png";
+import Shareabite from "../../public/share-a-bite.png";
+import { FaGithub, FaLink } from "react-icons/fa6";
 
 interface Project {
   projectName: string;
@@ -17,50 +16,38 @@ interface Project {
 
 const projectInfo: Project[] = [
   {
-    projectName: "Web App Generator",
+    projectName: "Wanderlust",
     projectDescription:
-      "This app allows users to input a prompt to generate web app code. It supports running the code, sharing a deployment link, and exporting the code for others.",
-    projectLink: "https://github.com/mdalkama689/bolt",
-    demoLink: "https://www.youtube.com/watch?v=obNvPCyJA7U",
-    imageUrl: boltImg,
+      "Wanderlust: Hotel Booking Platform with Razorpay Payment Integration: Secure and efficient payment processing- Forgot Password Functionality: Easy password recovery for users- Email Verification using Nodemailer: Ensuring authenticity and security User-Friendly Interface: Providing a smooth and intuitive user experience",
+    projectLink: "https://github.com/Saud12131/WANDERLUST",
+    demoLink: "https://wanderlust-myk8.vercel.app/",
+    imageUrl: Wanderlust,
     techStack: [
-      "Sandpack",
-      "Next.js",
-      "Tailwind CSS",
-      "ShadCN",
-      "Gemini",
-      "TypeScript",
-      "Prisma",
-      "PostgreSQL",
+      "MERN STACK",
+     "Tailwind CSS",
+     "JWT","bcryptjs",
     ],
   },
   {
-    projectName: "Collaborative Drawing Studio",
+    projectName: "Medium",
     projectDescription:
-      "A real-time collaborative drawing app where users can create and join rooms to draw shapes like rectangles and circles, use a pencil, and erase drawings.",
-    projectLink: "https://github.com/mdalkama689/excalidraw",
-    demoLink: "https://www.youtube.com/watch?v=z3H7dEXwnMw",
-    imageUrl: excalidrwaImg,
-    techStack: ["Turborepo", "Next.js", "Node.js", "WebSockets", "HTML Canvas"],
+      "Developed a scalable Medium clone using React, TypeScript, and Tailwind for the frontend. Implemented a serverless backend with Hono, Cloudflare Workers, PostgreSQL, and Prisma, utilizing TypeScript for consistency. Featured CRUD operations, user authentication, and a seamless reading experience..",
+    projectLink: "https://github.com/Saud12131/Medium",
+    demoLink: "https://medium-1-horj.onrender.com/",
+    imageUrl: Medium,
+    techStack: ["Prisma", "PostgresSql", "CloudFlareWorkers","JWT","bcryptjs",
+      "React","Tailwind"
+    ],
   },
   {
-    projectName: "AI Shorts Generator",
+    projectName: "Share-A-Bite",
     projectDescription:
-      "Users provide a topic, and the app generates a script. They can  select a generated script, voice, topic, and style to generate a video, which can be played. The system uses Google authentication and a credit-based system.",
-    projectLink: "https://github.com/mdalkama689/ai-shorts-generator",
-    demoLink: "https://www.youtube.com/watch?v=wg_j-BlLdGI",
-    imageUrl: aiShortImg,
-    techStack: ["NextAuth", "Remotion", "Next.js", "ShadCN", "Gemini"],
-  },
-  {
-    projectName: "Wireframe to Code Tool",
-    projectDescription:
-      "This tool allows users to convert wireframes to production-ready React code instantly, streamlining the design-to-code process and accelerating development.",
-    projectLink: "https://github.com/mdalkama689/wire2code",
-    demoLink: "https://www.youtube.com/watch?v=jZZewOHbzXI",
-    imageUrl: wier2codeImg,
-    techStack: ["OpenRouter", "NextAuth", "ShadCN", "Sandpack"],
-  },
+      "Share a Bite is a food ordering app built using the MERN stack (MongoDB, Express, React, Node.js). The app allows users to browse a variety of food options, place orders, and enjoy a seamless food delivery experience, all in a user-friendly interface.",
+    projectLink: "https://github.com/Saud12131/full-stack-task-delivery-app",
+    demoLink: "https://share-a-bite-frontend.vercel.app/",
+    imageUrl: Shareabite,
+    techStack: ["React", "Bootstrap", "Node.js", "Express", "MongoDB","React Context API","JWT","bcryptjs"],
+  }
 ];
 
 const Projects: React.FC = () => {
@@ -126,7 +113,7 @@ const Card: React.FC<CardProps> = ({ project }) => (
           />
         </Link>
         <Link href={project.demoLink} target="_blank" rel="noopener noreferrer">
-          <FaYoutube
+          <FaLink
             className="text-white hover:text-gray-300 transition-colors duration-300"
             size={24}
           />

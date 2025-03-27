@@ -75,7 +75,7 @@ const Contact = () => {
           <div className="flex items-center gap-3 justify-center">
             Wanna connect with me? Drop me a message on
             <Link
-              href="https://x.com/alkama_07"
+              href="https://x.com/_saud_syd_"
               target="_blank"
               rel="noopener noreferrer"
               className="pb-1 border-b-2 border-transparent hover:border-blue-400 transition-all"

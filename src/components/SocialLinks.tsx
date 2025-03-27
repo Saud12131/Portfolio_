@@ -8,38 +8,31 @@ const SocialIcons = () => {
     {
       name: "X",
       icon: <FaXTwitter size={28} />,
-      url: "https://x.com/alkama_07",
+      url: "https://x.com/_saud_syd_",
       external: true,
     },
     {
       name: "Github",
       icon: <FaGithub size={28} />,
-      url: "https://github.com/mdalkama689",
+      url: "https://github.com/Saud12131",
       external: true,
     },
     {
       name: "LinkedIn",
       icon: <FaLinkedinIn size={28} />,
-      url: "https://www.linkedin.com/in/md-alkama-ashraf-37359725b/",
+      url: "https://www.linkedin.com/in/sayyed-saud-a6128129b",
       external: true,
     },
-    {
-      name: "Youtube",
-      icon: <FaYoutube size={28} />,
-      url: "https://www.youtube.com/@Bug2Build-d7f",
-      external: true,
-    },
-
     {
       name: "Email",
       icon: <FaEnvelope size={28} />,
-      url: "mailto:mdalkama689@gmail.com",
+      url: "mailto:saudsayyedofficial@gmail.com",
       external: true,
     },
     {
       name: "Resume",
       icon: <FaFileAlt size={28} />,
-      url: "https://drive.google.com/file/d/1wegWprbl8k4lkeXbJopsRONUNWJ1a027/view",
+      url: "https://drive.google.com/file/d/1NU0BceH7j53flhLX2PEeJLiJvZ2TAdR3/view?usp=drive_link",
       external: true,
     },
   ];

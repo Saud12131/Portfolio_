@@ -3,7 +3,7 @@ function Footer() {
   const year = date.getFullYear();
   return (
     <div className="text-white p-4 text-center">
-      © {year} Alkama | All rights reserved.
+      © {year} Saud Sayyed | All rights reserved.
     </div>
   );
 }
