@@ -28,8 +28,8 @@ function Hiring() {
         <h2 className="text-2xl font-semibold mt-6 mb-4 text-center">
           About Us
         </h2>
-        <p className="mb-4 leading-relaxed text-center">
-          We are a web development agency specializing in cutting-edge
+        <p className="mb-4 leading-relaxed text-start">
+        We are a web development services specializing in cutting-edge
           technologies like Next.js, React, and backend development. Our mission
           is to deliver high-quality web solutions for clients across
           industries. We are passionate about building modern full-stack and
@@ -73,16 +73,9 @@ function Hiring() {
 
         <h3 className="text-xl font-semibold mt-6">What We Offer:</h3>
         <ul className="list-disc list-inside mb-4 space-y-2">
-          <li>
-            Hands-on experience working with modern technologies (MERN, Next.js,
-            WebSocket).
-          </li>
-          <li>Collaborative team environment with growth opportunities.</li>
-          <li>Flexible working hours.</li>
-          <li>
-            Location Preference: Jaipur preferred, but remote opportunities
-            within India are welcome.
-          </li>
+          <li>Lead generation role with flexible working hours.</li>
+          <li>Opportunity to work with a dynamic team focused on web development.</li>
+          <li>Location Preference: Jaipur preferred, but remote opportunities within India are welcome.</li>
         </ul>
 
         <div className="flex justify-center mt-6">
