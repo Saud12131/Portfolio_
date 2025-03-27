@@ -1,6 +1,6 @@
 "use client";
 
-import { FaEnvelope, FaXTwitter, FaYoutube } from "react-icons/fa6";
+import { FaEnvelope, FaXTwitter } from "react-icons/fa6";
 import { FaFileAlt, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const SocialIcons = () => {

@@ -7,7 +7,6 @@ import {
   FaGitAlt,
   FaDocker,
   FaPython,
-  FaParagraph
 } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import {
