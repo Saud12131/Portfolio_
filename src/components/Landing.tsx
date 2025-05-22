@@ -5,6 +5,20 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Notification from "./Notification";
+import Experience from "./Experience";
+import { ExperienceItem } from '../types';
+
+const experienceData: ExperienceItem = {
+  title: 'SDE Intern',
+  company: 'Xillion',
+  date: 'May 2025 - Present',
+  description: [
+    'Working as a Software Development Engineer Intern',
+    'Actively contributing to project development',
+    'Learning and implementing modern software development practices'
+  ],
+  link: 'https://xillion.in'
+};
 
 function Landing() {
   return (
@@ -13,6 +27,7 @@ function Landing() {
       <Header />
       <SocialLinks />
       <Skill />
+      <Experience experiences={[experienceData]} />
       <Projects />
       <Contact />
       <Footer />
