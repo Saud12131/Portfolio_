@@ -11,7 +11,7 @@ import { ExperienceItem } from '../types';
 const experienceData: ExperienceItem = {
   title: 'SDE Intern',
   company: 'Xillion',
-  date: 'May 2025 - Present',
+  date: 'April 2025 - Present',
   description: [
     'Working as a Software Development Engineer Intern',
     'Actively contributing to project development',
