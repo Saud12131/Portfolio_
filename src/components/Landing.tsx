@@ -13,12 +13,14 @@ const experienceData: ExperienceItem = {
   company: 'Xillion',
   date: 'April 2025 - Present',
   description: [
-    'Working as a Software Development Engineer Intern',
-    'Actively contributing to project development',
-    'Learning and implementing modern software development practices'
+    'Working with multiple LLMs and their frameworks',
+    'Serving as a full-stack developer using Next.js and FastAPI',
+    'Taking ownership of features and building them from scratch',
+    'Collaborating closely with the founder and co-founder'
   ],
   link: 'https://xillion.in'
 };
+
 
 function Landing() {
   return (
