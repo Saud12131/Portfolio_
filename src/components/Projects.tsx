@@ -4,7 +4,7 @@ import Wanderlust from "../../public/wanderlust.png";
 import Medium from "../../public/medium.png";
 import Shareabite from "../../public/share-a-bite.png";
 import { FaGithub, FaLink } from "react-icons/fa6";
-import InstaBot from "../../public/InstaBot.png";
+import InstaBot from "../../public/Screenshot 2025-07-09 173030.png";
 interface Project {
   projectName: string;
   projectDescription: string;
