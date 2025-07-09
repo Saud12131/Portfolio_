@@ -4,7 +4,7 @@ import Wanderlust from "../../public/wanderlust.png";
 import Medium from "../../public/medium.png";
 import Shareabite from "../../public/share-a-bite.png";
 import { FaGithub, FaLink } from "react-icons/fa6";
-
+import InstaBot from "../../public/InstaBot.png";
 interface Project {
   projectName: string;
   projectDescription: string;
@@ -15,6 +15,22 @@ interface Project {
 }
 
 const projectInfo: Project[] = [
+  {
+    projectName: "Instagram Automation Bot",
+  projectDescription:
+    "Instagram Automation Bot: Boosts engagement by auto-posting photos with AI-generated captions and auto-commenting on reels using Azure transcription + Gemini API. Includes anti-bot detection, smart scheduling, and session persistence for seamless automation.",
+  projectLink: "https://github.com/Saud12131/Instagram-Automation-Bot",
+  demoLink: "https://www.youtube.com/watch?v=KksBltyxNjM",
+  imageUrl: InstaBot, // make sure you have an image imported as `InstaBot`
+  techStack: [
+    "Python",
+    "Selenium",
+    "Azure OpenAI",
+    "Gemini API",
+    "yt-dlp",
+    "dotenv"
+  ],
+  },
   {
     projectName: "Wanderlust",
     projectDescription:
