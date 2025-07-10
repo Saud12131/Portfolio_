@@ -5,6 +5,7 @@ import Medium from "../../public/medium.png";
 import Shareabite from "../../public/share-a-bite.png";
 import { FaGithub, FaLink } from "react-icons/fa6";
 import InstaBot from "../../public/Screenshot 2025-07-09 173030.png";
+import LookMaxxing from "../../public/Screenshot 2025-07-10 181234.png";
 interface Project {
   projectName: string;
   projectDescription: string;
@@ -15,6 +16,28 @@ interface Project {
 }
 
 const projectInfo: Project[] = [
+  {
+    {
+  projectName: "LookMaxxing.ai",
+  projectDescription:
+    "LookMaxxing.ai: AI-powered personal style transformation platform with facial analysis, color palette matching, real-time style chat assistant, and secure photo-based before/after comparisons. Features include social feed, protected user dashboard, and transformation tracking. Built with Next.js 14, React 19, TypeScript, and Google Generative AI.",
+  projectLink: "https://github.com/Saud12131/LookMaxxing.ai",
+  demoLink: "https://look-maxxing-ai.vercel.app/",
+  imageUrl: LookMaxxing, // make sure you have an image imported as `LookMaxxingImage`
+  techStack: [
+    "Next.js 14",
+    "React 19",
+    "TypeScript",
+    "Tailwind CSS",
+    "Prisma",
+    "Firebase",
+    "Google Generative AI",
+    "Framer Motion",
+    "Shadcn/ui"
+  ],
+}
+
+  },
   {
     projectName: "Instagram Automation Bot",
   projectDescription:
