@@ -7,8 +7,9 @@ import {
   FaGitAlt,
   FaDocker,
   FaPython,
+  
 } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa6";
+import { FaAws, FaGithub } from "react-icons/fa6";
 import {
   SiTypescript,
   SiMongodb,
@@ -19,6 +20,7 @@ import {
   SiSocketdotio,
   SiPrisma,
   SiExpress,
+  SiFastapi,
 } from "react-icons/si";
 
 const techStack = [
@@ -41,6 +43,8 @@ const techStack = [
   { name: "GitHub", icon: <FaGithub size={28} color="#FFFFFF" /> },
   { name: "Prisma", icon: <SiPrisma size={28} color="#FFFFFF" /> },
   { name: "Docker", icon: <FaDocker size={28} color="#FFFFFF" /> },
+  { name: "FastAPI", icon: <SiFastapi size={28} color="#FFFFFF" /> },
+  { name: "AWS", icon: <FaAws size={28} color="#FFFFFF" /> }
 ];
 
 function Skill() {

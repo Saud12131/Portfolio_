@@ -13,9 +13,10 @@ const experienceData: ExperienceItem = {
   company: 'Xillion',
   date: 'May 2025 - Present',
   description: [
-    'Working as a Software Development Engineer Intern',
-    'Actively contributing to project development',
-    'Learning and implementing modern software development practices'
+    'Built AI-powered multimodal chat features using LLM APIs.',
+    'Developed scalable backend services using FastAPI integrated with Next.js frontend.',
+    'Automated workflows using Selenium, reducing manual effort by 60%.',
+    'Built and Optimized AI prompt pipelines for production-grade features.'
   ],
   link: 'https://xillion.in'
 };
