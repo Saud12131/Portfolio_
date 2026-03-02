@@ -32,7 +32,7 @@ const SocialIcons = () => {
     {
       name: "Resume",
       icon: <FaFileAlt size={28} />,
-      url: "https://drive.google.com/file/d/1NU0BceH7j53flhLX2PEeJLiJvZ2TAdR3/view?usp=drive_link",
+      url: "https://drive.google.com/file/d/1CC2ZWuw-8Aeno8CN0bIZPMrKtOvk5cFq/view?usp=sharing",
       external: true,
     },
   ];
